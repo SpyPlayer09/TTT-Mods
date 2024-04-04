@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\weapons\v_models\M98B\2Main"
+	"$bumpmap" "models\weapons\v_models\M98B\2Main_norm"
+	"$nocull"	"1"
+
+}

@@ -1,0 +1,7 @@
+/*
+
+!.gitignore
+!addons
+addons/*
+!addons/ttt*
+!addons/css-content-gmodcontent

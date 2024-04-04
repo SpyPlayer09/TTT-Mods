@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/Weapons/V_models/m98b/2ScopeCompleteMap"
+	"$bumpmap" "models/Weapons/V_models/m98b/2ScopeNormal"
+	"$normalmapalphaphongmask" "1"
+	"$nocull" 1
+
+}

@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+	"$baseTexture" "models\weapons\v_models\vashts deagle\lam_mw2"
+      "$envmap" 			"env_cubemap"
+      "$bumpmap" "models/weapons\v_models/vashts deagle\lam_normal"
+	"$normalmapalphaenvmapmask" 1
+	"$envmaptint" "[.1 .1 .1]"
+	"$no_draw" "1"
+}

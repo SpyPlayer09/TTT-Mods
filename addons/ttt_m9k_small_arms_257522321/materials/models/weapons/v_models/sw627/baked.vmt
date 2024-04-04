@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$baseTexture" "models\weapons\v_models\sw627\baked"
+      "$envmap" 			"env_cubemap"
+      "$bumpmap" "models\weapons\v_models\sw627\baked_normal"
+	"$normalmapalphaenvmapmask" 1
+	
+}

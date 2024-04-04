@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/weapons/v_models/rif_fg42/notmetal"
+        "$bumpmap" "models/weapons/v_models/rif_fg42/notmetal_normal"
+    	"$envmap" "env_cubemap"
+	"$envmaptint" "[ 0.15 0.15 0.15 ]"
+    	"$normalmapalphaenvmapmask" 1
+}

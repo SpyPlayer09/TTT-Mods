@@ -1,0 +1,13 @@
+"Vertexlitgeneric"
+{
+"$basetexture""models\weapons\v_models\crashrem\remi_diffuse"
+"$bumpmap""models\weapons\v_models\crashrem\remi_normal"
+
+"$phong"                    "1"
+"$phongboost"               "0.8"
+"$normalmapalphaphongmask"  "1"
+"$phongfresnelranges"       "[1 9 3]"
+"$phongalbedotint"          "1"
+"$phongtint"                   "[0.7 0.9 1]" 
+
+}
