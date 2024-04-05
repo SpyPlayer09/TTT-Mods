@@ -4,7 +4,7 @@ if SERVER then
 end
 
 if CLIENT then
-   SWEP.PrintName = "AAC Honey Badger"
+   SWEP.PrintName = "AAC"
    SWEP.Slot = 2
    SWEP.Icon = "VGUI/ttt/icon_ttt_honeybadger"
    
@@ -20,12 +20,13 @@ SWEP.Base = "weapon_tttbase"
 
 -- Standard GMod values
 SWEP.HoldType = "ar2"
+SWEP.m_WeaponDeploySpeed = 1.7
 
 SWEP.Primary.Ammo = "smg1"
 SWEP.Primary.Delay = 0.082
-SWEP.Primary.Recoil = 0.5
-SWEP.Primary.Damage = 24
-SWEP.Primary.Cone = .023
+SWEP.Primary.Recoil = 0.65
+SWEP.Primary.Damage = 22
+SWEP.Primary.Cone = .03
 SWEP.Primary.IronAccuracy = .014 
 SWEP.Primary.Automatic = true
 SWEP.Primary.ClipSize = 30

@@ -20,16 +20,17 @@ SWEP.Base = "weapon_tttbase"
 
 -- Standard GMod values
 SWEP.HoldType = "rpg"
+SWEP.m_WeaponDeploySpeed = 0.9
 
 SWEP.Primary.Ammo = "357"
-SWEP.Primary.Delay = 1
+SWEP.Primary.Delay = 1.8
 SWEP.Primary.Recoil = 0.6
-SWEP.Primary.Damage = 80
-SWEP.Primary.Cone = .01
+SWEP.Primary.Damage = 65
+SWEP.Primary.Cone = .0001
 SWEP.Primary.IronAccuracy = .0001
 SWEP.HeadshotMultiplier = 4
 SWEP.Primary.Automatic = false
-SWEP.Primary.ClipSize = 10
+SWEP.Primary.ClipSize = 5
 SWEP.Primary.DefaultClip = 10
 SWEP.Primary.ClipMax = 60
 SWEP.Primary.Sound = Sound( "Weapon_intervention.Single" )
@@ -130,7 +131,7 @@ function SWEP:SetZoom(state)
       return
    elseif IsValid(self.Owner) and self.Owner:IsPlayer() then
       if state then
-         self.Owner:SetFOV(20, 0.3)
+         self.Owner:SetFOV(10, 0.3)
       else
          self.Owner:SetFOV(0, 0.2)
       end

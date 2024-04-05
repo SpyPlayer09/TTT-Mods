@@ -8,7 +8,7 @@ SWEP.Instructions				= ""
 SWEP.Icon = "turtleicons/contender1.vmt"
 SWEP.MuzzleAttachment			= "1" 	-- Should be "1" for CSS models or "muzzle" for hl2 models
 SWEP.ShellEjectAttachment			= "2" 	-- Should be "2" for CSS models or "1" for hl2 models
-SWEP.PrintName				= "Thompson Contender G2"		-- Weapon name (Shown on HUD)	
+SWEP.PrintName				= "Contender"		-- Weapon name (Shown on HUD)	
 SWEP.Slot				= 1				-- Slot in the weapon selection menu
 SWEP.SlotPos				= 2			-- Position in the slot
 SWEP.DrawAmmo				= true		-- Should draw the default HL2 ammo counter
@@ -143,7 +143,7 @@ function SWEP:UseBolt()
 		end 
 		end )
 	else
-		timer.Simple(.1, function() self:CheckWeaponsAndAmmo() end)
+		--timer.Simple(.1, function() self:CheckWeaponsAndAmmo() end)
 	end
 
 end

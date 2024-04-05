@@ -20,6 +20,7 @@ SWEP.Base = "weapon_tttbase"
 
 -- Standard GMod values
 SWEP.HoldType = "smg"
+SWEP.m_WeaponDeploySpeed = 1.5
 
 SWEP.Primary.Ammo = "smg1"
 SWEP.Primary.Delay = 0.1

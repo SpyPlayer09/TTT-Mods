@@ -29,7 +29,7 @@ SWEP.WorldModel				= "models/weapons/w_browning_auto.mdl"	-- Weapon world model
 SWEP.Base 				= "weapon_tttbase"
 SWEP.Spawnable				= true
 SWEP.AdminSpawnable			= true
-SWEP.Primary.Delay = 0.5
+SWEP.Primary.Delay = 0.7
 SWEP.AutoSpawnable      = true
 
 SWEP.Kind = WEAPON_HEAVY
@@ -57,8 +57,8 @@ SWEP.ShellTime			= .35
 
 SWEP.Primary.NumShots	= 8		//how many bullets to shoot, use with shotguns
 SWEP.Primary.Damage		= 11	//base damage, scaled by game
-SWEP.Primary.Spread		= .03	//define from-the-hip accuracy 1 is terrible, .0001 is exact)
-SWEP.Primary.IronAccuracy = .03 // has to be the same as primary.spread
+SWEP.Primary.Spread		= .05	//define from-the-hip accuracy 1 is terrible, .0001 is exact)
+SWEP.Primary.IronAccuracy = .05 // has to be the same as primary.spread
 -- Because irons don't magically give you less pellet spread!
 
 -- Enter iron sight info and bone mod info below

@@ -4,7 +4,7 @@ if SERVER then
 end
 
 if CLIENT then
-   SWEP.PrintName = "HK45C"
+   SWEP.PrintName = "HK 45C"
    SWEP.Slot = 1
    SWEP.Icon = "VGUI/ttt/icon_ttt_hk45"
    
@@ -20,6 +20,7 @@ SWEP.Base = "weapon_tttbase"
 
 -- Standard GMod values
 SWEP.HoldType = "pistol"
+SWEP.m_WeaponDeploySpeed = 1.9
 
 SWEP.Primary.Ammo = "pistol"
 SWEP.Primary.Damage = 24
