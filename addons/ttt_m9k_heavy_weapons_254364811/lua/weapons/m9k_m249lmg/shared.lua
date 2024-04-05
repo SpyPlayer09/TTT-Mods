@@ -1,4 +1,5 @@
 -- Variables that are used on both client and server
+SWEP.AutoSpawnable      = false
 SWEP.Gun = ("m9k_m249lmg") -- must be the name of your swep but NO CAPITALS!
 SWEP.Category				= "M9K Machine Guns"
 SWEP.Author				= ""
@@ -34,7 +35,6 @@ SWEP.FiresUnderwater = false
 SWEP.Kind = WEAPON_HEAVY
 SWEP.WeaponID = AMMO_M249
 
-SWEP.AutoSpawnable      = true
 SWEP.Primary.Delay = 0.06
 SWEP.Primary.Sound			= Sound("Weapon_249M.Single")		-- Script that calls the primary fire sound
 SWEP.Primary.RPM			= 855			-- This is in Rounds Per Minute

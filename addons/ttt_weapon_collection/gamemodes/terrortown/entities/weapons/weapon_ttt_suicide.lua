@@ -1,5 +1,6 @@
 AddCSLuaFile()
 
+SWEP.CanBuy = {} --Removed
 if CLIENT then
     SWEP.PrintName = "Suicide Bomb"
     SWEP.Slot = 6
@@ -26,7 +27,6 @@ SWEP.WorldModel = Model("models/weapons/w_c4.mdl")
 SWEP.Kind = WEAPON_EQUIP1
 SWEP.AutoSpawnable = false
 SWEP.AmmoEnt = "none"
-SWEP.CanBuy = {ROLE_TRAITOR}
 SWEP.InLoadoutFor = {nil}
 SWEP.LimitedStock = true
 SWEP.AllowDrop = true

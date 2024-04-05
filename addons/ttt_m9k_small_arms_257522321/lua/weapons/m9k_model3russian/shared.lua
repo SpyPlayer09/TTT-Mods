@@ -1,4 +1,4 @@
-SWEP.AutoSpawnable      = true-- Variables that are used on both client and server
+SWEP.AutoSpawnable      = false-- Variables that are used on both client and server
 SWEP.Gun = ("m9k_model3russian") -- must be the name of your swep but NO CAPITALS!
 SWEP.Category				= "M9K Pistols"
 SWEP.Author				= ""

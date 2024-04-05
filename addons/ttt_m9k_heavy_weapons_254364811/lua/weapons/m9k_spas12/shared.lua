@@ -1,4 +1,5 @@
 -- Variables that are used on both client and server
+SWEP.AutoSpawnable      = false
 SWEP.Gun = ("m9k_spas12") -- must be the name of your swep but NO CAPITALS!
 SWEP.Category				= "M9K Shotguns"
 SWEP.Author				= ""
@@ -32,8 +33,6 @@ SWEP.AdminSpawnable			= true
 
 SWEP.Kind = WEAPON_HEAVY
 SWEP.WeaponID = AMMO_SHOTGUN
-
-SWEP.AutoSpawnable      = true
 
 SWEP.Primary.Delay = 0.5
 SWEP.Primary.Sound			= Sound("spas_12_shoty.Single")		-- script that calls the primary fire sound
