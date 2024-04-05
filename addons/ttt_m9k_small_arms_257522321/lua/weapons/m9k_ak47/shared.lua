@@ -1,4 +1,4 @@
-SWEP.AutoSpawnable = true-- Variables that are used on both client and server
+SWEP.AutoSpawnable = false-- Manual Disable
 SWEP.Gun = ("m9k_ak47") -- must be the name of your swep but NO CAPITALS!
 SWEP.Category				= "M9K Assault Rifles"
 SWEP.Author				= ""
@@ -33,7 +33,6 @@ SWEP.Base				= "weapon_tttbase"
 SWEP.Spawnable				= true
 SWEP.AdminSpawnable			= true
 SWEP.FiresUnderwater = false
-SWEP.AutoSpawnable = true
 
 SWEP.Kind = WEAPON_HEAVY
 SWEP.WeaponID = AMMO_MAC10

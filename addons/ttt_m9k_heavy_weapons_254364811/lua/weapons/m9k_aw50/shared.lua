@@ -1,4 +1,6 @@
 -- Variables that are used on both client and server
+SWEP.CanBuy = { }
+SWEP.AutoSpawnable = false
 SWEP.Gun = ("m9k_aw50") -- must be the name of your swep but NO CAPITALS!
 SWEP.Category				= "M9K Sniper Rifles"
 SWEP.Author				= ""
@@ -33,7 +35,6 @@ SWEP.Spawnable				= true
 SWEP.AdminSpawnable			= true
 
 SWEP.IsSilent = false
-SWEP.CanBuy = { ROLE_TRAITOR }
 SWEP.Kind = WEAPON_EQUIP1
 
 SWEP.Secondary.Sound = Sound("Default.Zoom")

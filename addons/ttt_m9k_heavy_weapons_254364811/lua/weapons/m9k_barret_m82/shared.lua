@@ -1,4 +1,6 @@
 -- Variables that are used on both client and server
+SWEP.CanBuy = { }
+SWEP.AutoSpawnable      = false
 SWEP.Gun = ("m9k_barret_m82") -- must be the name of your swep but NO CAPITALS!
 SWEP.Category				= "M9K Sniper Rifles"
 SWEP.Author				= ""
@@ -30,10 +32,8 @@ SWEP.WorldModel				= "models/weapons/w_barret_m82.mdl"	-- Weapon world model
 SWEP.Base 				= "weapon_tttbase"
 SWEP.Spawnable				= true
 SWEP.AdminSpawnable			= true
-SWEP.AutoSpawnable      = false
 
 SWEP.IsSilent = false
-SWEP.CanBuy = { ROLE_TRAITOR }
 SWEP.Kind = WEAPON_EQUIP1
 
 SWEP.Primary.Delay         = 1.8

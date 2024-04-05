@@ -1,4 +1,5 @@
 SWEP.AutoSpawnable      = false-- Variables that are used on both client and server
+SWEP.CanBuy = { }
 SWEP.Gun = ("m9k_honeybadger") -- must be the name of your swep but NO CAPITALS!
 SWEP.Category				= "M9K Submachine Guns"
 SWEP.Author				= ""
@@ -25,7 +26,6 @@ SWEP.HoldType 				= "ar2"		-- how others view you carrying the weapon
 -- you're mostly going to use ar2, smg, shotgun or pistol. rpg and crossbow make for good sniper rifles
 
 SWEP.IsSilent = true
-SWEP.CanBuy = { ROLE_TRAITOR }
 SWEP.Kind = WEAPON_EQUIP1
 
 SWEP.ViewModelFOV			= 70

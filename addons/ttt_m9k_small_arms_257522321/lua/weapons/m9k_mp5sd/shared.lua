@@ -1,4 +1,5 @@
 SWEP.AutoSpawnable      = false-- Variables that are used on both client and server
+SWEP.CanBuy = { }
 SWEP.Gun = ("m9k_mp5sd") -- must be the name of your swep but NO CAPITALS!
 SWEP.Category				= "M9K Submachine Guns"
 SWEP.Author				= ""
@@ -32,7 +33,6 @@ SWEP.AdminSpawnable			= true
 SWEP.FiresUnderwater = false
 
 SWEP.IsSilent = true
-SWEP.CanBuy = { ROLE_TRAITOR }
 SWEP.Kind = WEAPON_EQUIP1
 
 SWEP.Primary.Sound			= Sound("Weapon_hkmp5sd.single")		-- Script that calls the primary fire sound
