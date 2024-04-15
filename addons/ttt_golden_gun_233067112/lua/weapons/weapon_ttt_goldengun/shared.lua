@@ -94,7 +94,7 @@ function SWEP:PrimaryAttack()
 			self.Owner:FireBullets(bullet)
 			self.Weapon:SendWeaponAnim( ACT_VM_PRIMARYATTACK )
 			self:TakePrimaryAmmo(1)
-			self.Weapon.EmitSound( Sound( "Weapon_Deagle.Single" ) )
+			self.Weapon:EmitSound( Sound( "Weapon_Deagle.Single" ) )
 			return
 		elseif tr.Entity:IsRole(ROLE_INNOCENT) or tr.Entity:IsRole(ROLE_DETECTIVE) then
 			self.Weapon:SendWeaponAnim( ACT_VM_PRIMARYATTACK )
