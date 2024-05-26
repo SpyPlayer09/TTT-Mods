@@ -337,12 +337,13 @@ if CLIENT then
     local function IdentSwapDraw()
       local client = LocalPlayer()
       if not IsValid(client) or not client:IsTraitor() then return end
+      if not client:IsTraitor() then return end
       if not client:GetNWBool("IdentSwapInDisguise") then return end
 
       surface.SetFont("TabLarge")
       surface.SetTextColor(255, 0, 0, 230)
 
-      local text = "Du bist verkleidet als " .. client:GetNWString("IdentSwapName")
+      local text = "You are disguised as " .. client:GetNWString("IdentSwapName")
       local w, h = surface.GetTextSize(text)
 
       surface.SetTextPos(36, ScrH() - 150 - h)

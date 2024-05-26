@@ -60,7 +60,7 @@ SWEP.Primary.Ammo="none"
 
 SWEP.AutoSpawnable=false
 SWEP.Kind=WEAPON_EQUIP2
-SWEP.CanBuy={ROLE_TRAITOR,ROLE_DETECTIVE}
+SWEP.CanBuy={ROLE_TRAITOR}
 SWEP.LimitedStock=true
 
 SWEP.DeployDelay=0.9

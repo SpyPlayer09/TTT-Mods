@@ -45,6 +45,7 @@ SWEP.Primary.KickDown			= 0.5		-- Maximum down recoil (skeet)
 SWEP.Primary.KickHorizontal		= 0.5		-- Maximum up recoil (stock)
 SWEP.Primary.Automatic			= false		-- Automatic = true; Semi Auto = false
 SWEP.Primary.Ammo			= "AlyxGun"
+SWEP.HeadshotMultiplier = 4
 SWEP.AmmoEnt = "item_ammo_revolver_ttt"			-- pistol, 357, smg1, ar2, buckshot, slam, SniperPenetratedRound, AirboatGun
 -- Pistol, buckshot, and slam always ricochet. Use AirboatGun for a light metal peircing shotgun pellets
 
@@ -55,7 +56,7 @@ SWEP.data.ironsights			= 1
 
 SWEP.Primary.NumShots	= 1		-- How many bullets to shoot per trigger pull
 SWEP.Primary.Damage		= 32	-- Base damage per bullet
-SWEP.Primary.Spread		= .015	-- Define from-the-hip accuracy 1 is terrible, .0001 is exact)
+SWEP.Primary.Spread		= .015	-- Define fr    om-the-hip accuracy 1 is terrible, .0001 is exact)
 SWEP.Primary.IronAccuracy = .01 -- Ironsight accuracy, should be the same for shotguns
 
 -- Enter iron sight info and bone mod info below
