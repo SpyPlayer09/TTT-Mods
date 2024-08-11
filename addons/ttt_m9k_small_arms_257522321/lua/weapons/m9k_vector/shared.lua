@@ -36,6 +36,7 @@ SWEP.WeaponID = AMMO_MAC10
 
 SWEP.Primary.Sound			= Sound("kriss_vector.Single")		-- Script that calls the primary fire sound
 SWEP.Primary.RPM			= 1000			-- This is in Rounds Per Minute
+SWEP.Primary.Delay          = 0.04
 SWEP.Primary.ClipSize		= 30		-- Size of a clip
 SWEP.Primary.DefaultClip		= 30		-- Bullets you start with
 SWEP.Primary.ClipMax               = 60
@@ -55,7 +56,7 @@ SWEP.data 				= {}				--The starting firemode
 SWEP.data.ironsights			= 1
 
 SWEP.Primary.NumShots	= 1		-- How many bullets to shoot per trigger pull
-SWEP.Primary.Damage		= 18	-- Base damage per bullet
+SWEP.Primary.Damage		= 15	-- Base damage per bullet
 SWEP.Primary.Spread		= .026	-- Define from-the-hip accuracy 1 is terrible, .0001 is exact)
 SWEP.Primary.IronAccuracy = .014 -- Ironsight accuracy, should be the same for shotguns
 
