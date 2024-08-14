@@ -40,9 +40,9 @@ SWEP.Primary.Delay          = 0.04
 SWEP.Primary.ClipSize		= 30		-- Size of a clip
 SWEP.Primary.DefaultClip		= 30		-- Bullets you start with
 SWEP.Primary.ClipMax               = 60
-SWEP.Primary.KickUp				= 0.2		-- Maximum up recoil (rise)
-SWEP.Primary.KickDown			= 0.1		-- Maximum down recoil (skeet)
-SWEP.Primary.KickHorizontal		= 0.3		-- Maximum up recoil (stock)
+SWEP.Primary.KickUp				= 0.3		-- Maximum up recoil (rise)
+SWEP.Primary.KickDown			= 0.2		-- Maximum down recoil (skeet)
+SWEP.Primary.KickHorizontal		= 0.4		-- Maximum up recoil (stock)
 SWEP.Primary.Automatic			= true		-- Automatic = true; Semi Auto = false
 SWEP.Primary.Ammo			= "smg1"
 SWEP.AmmoEnt = "item_ammo_smg1_ttt"			-- pistol, 357, smg1, ar2, buckshot, slam, SniperPenetratedRound, AirboatGun
@@ -56,7 +56,7 @@ SWEP.data 				= {}				--The starting firemode
 SWEP.data.ironsights			= 1
 
 SWEP.Primary.NumShots	= 1		-- How many bullets to shoot per trigger pull
-SWEP.Primary.Damage		= 15	-- Base damage per bullet
+SWEP.Primary.Damage		= 15 	-- Base damage per bullet
 SWEP.Primary.Spread		= .026	-- Define from-the-hip accuracy 1 is terrible, .0001 is exact)
 SWEP.Primary.IronAccuracy = .014 -- Ironsight accuracy, should be the same for shotguns
 

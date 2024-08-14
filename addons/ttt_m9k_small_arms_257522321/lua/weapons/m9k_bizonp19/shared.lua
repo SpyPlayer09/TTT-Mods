@@ -36,9 +36,10 @@ SWEP.FiresUnderwater = false
 
 SWEP.Primary.Sound			= Sound("Weapon_P19.Single")		-- Script that calls the primary fire sound
 SWEP.Primary.RPM			= 675			-- This is in Rounds Per Minute
-SWEP.Primary.ClipSize			= 30		-- Size of a clip
-SWEP.Primary.ClipMax			= 60		-- Size of a clip
-SWEP.Primary.DefaultClip		= 30		-- Bullets you start with
+SWEP.Primary.Delay          = 0.07
+SWEP.Primary.ClipSize			= 45		-- Size of a clip
+SWEP.Primary.ClipMax			= 45		-- Size of a clip
+SWEP.Primary.DefaultClip		= 45		-- Bullets you start with
 SWEP.Primary.KickUp				= 0.6		-- Maximum up recoil (rise)
 SWEP.Primary.KickDown			= 0.4		-- Maximum down recoil (skeet)
 SWEP.Primary.KickHorizontal		= 0.5		-- Maximum up recoil (stock)
@@ -55,7 +56,7 @@ SWEP.data 				= {}				--The starting firemode
 SWEP.data.ironsights			= 1
 
 SWEP.Primary.NumShots	= 1		-- How many bullets to shoot per trigger pull
-SWEP.Primary.Damage		= 19	-- Base damage per bullet
+SWEP.Primary.Damage		= 10	-- Base damage per bullet
 SWEP.Primary.Spread		= .02	-- Define from-the-hip accuracy 1 is terrible, .0001 is exact)
 SWEP.Primary.IronAccuracy = .015 -- Ironsight accuracy, should be the same for shotguns
 
