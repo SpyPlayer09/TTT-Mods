@@ -31,7 +31,7 @@ SWEP.AdminSpawnable			= true
 SWEP.Kind = WEAPON_HEAVY
 SWEP.WeaponID = AMMO_SHOTGUN
 
-SWEP.Primary.Delay = 0.5
+SWEP.Primary.Delay = 0.4
 SWEP.Primary.Sound			= Sound("ShotStriker12.Single")		-- script that calls the primary fire sound
 SWEP.Primary.RPM				= 365		-- This is in Rounds Per Minute
 SWEP.Primary.ClipSize			= 8			-- Size of a clip
@@ -50,10 +50,11 @@ SWEP.Secondary.IronFOV			= 60		-- How much you 'zoom' in. Less is more!
 
 SWEP.ShellTime			= .3
 
-SWEP.Primary.NumShots	= 8		-- How many bullets to shoot per trigger pull, AKA pellets
-SWEP.Primary.Damage		= 11	-- Base damage per bullet
+SWEP.Primary.NumShots	= 10		-- How many bullets to shoot per trigger pull, AKA pellets
+SWEP.Primary.Damage		= 8	-- Base damage per bullet
 SWEP.Primary.Spread		= .04	-- Define from-the-hip accuracy 1 is terrible, .0001 is exact)
 SWEP.Primary.IronAccuracy = .04	-- Ironsight accuracy, should be the same for shotguns
+SWEP.Primary.Cone = 0.1
 -- Because irons don't magically give you less pellet spread!
 
 -- Enter iron sight info and bone mod info below

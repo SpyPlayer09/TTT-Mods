@@ -37,8 +37,8 @@ SWEP.WeaponID = AMMO_SHOTGUN
 
 SWEP.Primary.Sound			= Sound("Weapon_a5.Single")		-- script that calls the primary fire sound
 SWEP.Primary.RPM				= 250		-- This is in Rounds Per Minute
-SWEP.Primary.ClipSize		= 8			-- Size of a clip
-SWEP.Primary.DefaultClip		= 8	-- Default number of bullets in a clip
+SWEP.Primary.ClipSize		= 6			-- Size of a clip
+SWEP.Primary.DefaultClip		= 6	-- Default number of bullets in a clip
 SWEP.Primary.ClipMax               = 24
 SWEP.Primary.KickUp				= 1				-- Maximum up recoil (rise)
 SWEP.Primary.KickDown			= 0.8		-- Maximum down recoil (skeet)
@@ -57,7 +57,8 @@ SWEP.ShellTime			= .35
 
 SWEP.Primary.NumShots	= 8		//how many bullets to shoot, use with shotguns
 SWEP.Primary.Damage		= 11	//base damage, scaled by game
-SWEP.Primary.Spread		= .05	//define from-the-hip accuracy 1 is terrible, .0001 is exact)
+SWEP.Primary.Spread		= .00001	//define from-the-hip accuracy 1 is terrible, .0001 is exact)
+SWEP.Primary.Cone = 0.09
 SWEP.Primary.IronAccuracy = .05 // has to be the same as primary.spread
 -- Because irons don't magically give you less pellet spread!
 

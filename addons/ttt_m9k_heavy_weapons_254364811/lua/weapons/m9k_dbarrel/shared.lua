@@ -59,6 +59,7 @@ SWEP.Primary.NumShots	= 8		-- How many bullets to shoot per trigger pull, AKA pe
 SWEP.Primary.Damage		= 11	-- Base damage per bullet
 SWEP.Primary.Spread		= .03	-- Define from-the-hip accuracy 1 is terrible, .0001 is exact)
 SWEP.Primary.IronAccuracy = .03	-- Ironsight accuracy, should be the same for shotguns
+SWEP.Primary.Cone = .03
 -- Because irons don't magically give you less pellet spread!
 
 -- Enter iron sight info and bone mod info below
@@ -152,8 +153,11 @@ function SWEP:PerformReload()
 
    if wep:Clip1() >= self.Primary.ClipSize then return end
 
-   self.Owner:RemoveAmmo( 1, self.Primary.Ammo, false )
-   self.Weapon:SetClip1( self.Weapon:Clip1() + 1 )
+   local toReload = self.Primary.ClipSize - wep:Clip1()
+
+
+   self.Owner:RemoveAmmo( toReload, self.Primary.Ammo, false )
+   self.Weapon:SetClip1( self.Weapon:Clip1() + toReload )
 
    wep:SendWeaponAnim(ACT_VM_RELOAD)
 
